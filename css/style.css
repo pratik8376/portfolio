@@ -303,8 +303,8 @@ section{
 
 
 .portfolio-box img{
-    width: 35vw;
-    margin-left: 45%;
+    width: 25vw;
+    margin-left: 30%;
 
 }
 .portfolio-box {
@@ -377,9 +377,10 @@ section{
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 360px){
     #menu-icon{
         display: block;
+       
     }
     .navbar{
         position: absolute;
@@ -392,6 +393,10 @@ section{
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         display: none;
     }
+
+    .header{
+        width: 50%;
+    }
     .navbar.active{
         display: block;
     }
@@ -402,15 +407,20 @@ section{
         margin: 3rem 0;
     }
 
+    .home-content{
+        text-align: center;
+        
+    }
+
     .home{
         flex-direction: column;
     }
     .home h3{
-        font-size: 3.6rem;
+        font-size: 3rem;
     }
     
     .home h1{
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
 
     .home p{
@@ -419,7 +429,9 @@ section{
     .home-image img{
         width: 70vw;
         margin-top: 4rem;
+        
     }
+
 
     .portfolio h2 {
         margin-bottom: 3rem;
