@@ -304,7 +304,7 @@ section{
 
 .portfolio-box img{
     width: 35vw;
-    margin-left: 30%;
+    margin-left: 45%;
 
 }
 .portfolio-box {
@@ -355,7 +355,7 @@ section{
     
 }
 
-/* BREAKPOINTS 
+/* BREAKPOINTS */
 @media (max-width: 1000px){
     html{
         font-size: 55%;
@@ -381,17 +381,55 @@ section{
     #menu-icon{
         display: block;
     }
-
     .navbar{
-       position: absolute;
-        top: 10%;
-        left: 0%;
+        position: absolute;
+        top: 100%;
+        left: 0;
         width: 100%;
         padding: 1rem 3%;
         background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        display: none;
+    }
+    .navbar.active{
+        display: block;
+    }
+
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .home{
+        flex-direction: column;
+    }
+    .home h3{
+        font-size: 3.6rem;
+    }
+    
+    .home h1{
+        font-size: 3rem;
+    }
+
+    .home p{
+        font-size: 2.8rem;
+    }
+    .home-image img{
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .portfolio h2 {
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: 700px;
+        width: 70px;
+        height: 700px;
     }
 }
 
-*/
