@@ -440,8 +440,7 @@ section{
     }
 
     .portfolio-box img {
-        align-items: center;
-        max-width: 100px;
+        margin-left: 10%;
     }
 }
 
