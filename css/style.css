@@ -303,8 +303,10 @@ section{
 
 
 .portfolio-box img{
-    width: 25vw;
-    margin-left: 30%;
+    margin-top: 5%;
+   margin-left: 45%;
+  width: 30%;
+    
 
 }
 .portfolio-box {
@@ -437,11 +439,9 @@ section{
         margin-bottom: 3rem;
     }
 
-    .portfolio-container {
-        display: grid;
-        grid-template-columns: 700px;
-        width: 70px;
-        height: 700px;
+    .portfolio-box img {
+        align-items: center;
+        max-width: 100px;
     }
 }
 
